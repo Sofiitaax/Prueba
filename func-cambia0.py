@@ -11,4 +11,5 @@ def cambia0Aux(num, exp):
         return 1 * 10 ** exp + cambia0Aux(num//10, exp + 1)
     else:
         return num%10*10**exp + cambia0Aux(num//10, exp + 1)
+    #Prueba git
 
